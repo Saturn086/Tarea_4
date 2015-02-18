@@ -1,6 +1,7 @@
 package homework4;
 
 // Hola
+// Hola 2
 
 /**
  * Juego
