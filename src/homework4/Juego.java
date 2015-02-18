@@ -1,5 +1,7 @@
 package homework4;
 
+// Hola
+
 /**
  * Juego
  *
@@ -37,8 +39,8 @@ import java.awt.Toolkit;
 public class Juego extends JFrame implements Runnable, KeyListener {
 
     private final int iMAXANCHO = 10; // maximo numero de personajes por ancho
-    private final int iMAXALTO = 8;  // maxuimo numero de personajes por alto
-    private Base basJuanito;         // objeto de jugador Juanito
+    private final int iMAXALTO = 8; // maxuimo numero de personajes por alto
+    private Base basJuanito; // objeto de jugador Juanito
     private LinkedList<Base> lklChimpys; // lista encadenada con changuitas
     private LinkedList<Base> lklDiddys; // lista encadenada con changuitos
     private int iPosXJuan; // numero de columna en que esta juanito
@@ -54,12 +56,12 @@ public class Juego extends JFrame implements Runnable, KeyListener {
     private boolean boolPausa; // bandera de pausa
     private boolean boolGameOver; // bandera de fin de juego
     /* objetos para manejar el buffer del JFrame y este no parpadee */
-    private Image    imaImagenApplet;   // Imagen a proyectar en JFrame	
+    private Image    imaImagenApplet; // Imagen a proyectar en JFrame	
     private Image imaImagenGameOver; // imagen de juego terminado
-    private Graphics graGraficaApplet;  // Objeto grafico de la Imagen
-    private SoundClip socSonidoChimpy;   // Objeto sonido de Chimpy
-    private SoundClip socSonidoDiddy;   // Objeto sonido de Diddy
-    private String nombreArchivo;    // Nombre del archivo
+    private Graphics graGraficaApplet; // Objeto grafico de la Imagen
+    private SoundClip socSonidoChimpy; // Objeto sonido de Chimpy
+    private SoundClip socSonidoDiddy; // Objeto sonido de Diddy
+    private String nombreArchivo; // Nombre del archivo
     private URL urlImagenChimpy; // url de imagen de chimpy
     private URL urlImagenDiddy; // url de imagen de diddy
     private int iHeight; // entero con valor del alto disminuido
@@ -85,7 +87,7 @@ public class Juego extends JFrame implements Runnable, KeyListener {
      */
     public void init() {
         // hago el JFrame de un tamaño 800,500
-        setSize(800,500);
+        setSize(800, 500);
         // inicializa nombre de archivo
         nombreArchivo = "datosJuego.txt";
         // bandera de pausa apagada
