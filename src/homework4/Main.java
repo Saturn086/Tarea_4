@@ -1,5 +1,5 @@
 /**
- * Homework 4
+ * Main - Tarea 4
  * 
  * Un juego de Chimpy/Diddy que se ejecuta en un JFrame
  * 
@@ -13,7 +13,7 @@ package homework4;
 
 import javax.swing.JFrame;
 
-public class Homework4 {
+public class Main {
 
     /**
      * main
