@@ -7,14 +7,14 @@ package homework4;
  * <code>Base</code>
  *
  * @author Mario Sergio Fuentes Juarez
+ * @author Marco Antonio Peyrot
  * @version 1.0
- * @date 11/FEB/2015
+ * @date 18/02/2015
  */
 import java.awt.Graphics;
 import java.awt.Image;
 import java.awt.Rectangle;
 import java.awt.image.ImageObserver;
-import javax.swing.ImageIcon;
 
 public class Base {
 
@@ -223,5 +223,4 @@ public class Base {
         // si no entro entonces no es un Base
         return false;
     }
-    
 }
